@@ -8,8 +8,5 @@ cd spring-petclinic-rest
 
 ## Run the test with: 
 ```shell 
-k6 run petclinic.js```
-## Run the test with different duration and users: 
-```shell 
-k6 run --duration 100s --vus 100 petclinic.js
+k6 run petclinic.js
 ```
